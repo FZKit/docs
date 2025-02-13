@@ -8,16 +8,16 @@ export default defineConfig({
   base: "/docs/",
   integrations: [
     starlight({
-      title: "My Docs",
+      title: "FZKit | Docs",
       social: {
-        github: "https://github.com/withastro/starlight",
+        github: "https://github.com/FZKit/docs",
       },
       sidebar: [
         {
           label: "Guides",
           items: [
             // Each item here is one entry in the navigation menu.
-            { label: "Example Guide", slug: "guides/example" },
+            { label: "Contributing", slug: "guides/contributing" },
           ],
         },
         {
