@@ -8,7 +8,7 @@ export default defineConfig({
   base: "/docs/",
   integrations: [
     starlight({
-      title: "FZKit | Docs",
+      title: "FZKit",
       social: {
         github: "https://github.com/FZKit/docs",
       },
